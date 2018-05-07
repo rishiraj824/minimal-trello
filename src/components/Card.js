@@ -72,7 +72,7 @@ class Card extends React.Component {
                         change={this.dataChanged}
                     />
 
-                <a href="#" className="Cardlist-removeCard" onClick={()=>this.props.removeCard(id)}>Remove</a>
+                {/*<a href="#" className="Cardlist-removeCard" onClick={()=>this.props.removeCard(id)}>Remove</a>*/}
                 </div>
             </div>
         );

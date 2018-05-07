@@ -24,6 +24,7 @@ export function addNewCard(listId, title = 'What is this card about? ') {
 
 export const REMOVE_CARD = 'REMOVE_CARD';
 export function removeCard(cardId, listId) {
+    console.log(listId);
     return {
         type: 'REMOVE_CARD',
         cardId,
