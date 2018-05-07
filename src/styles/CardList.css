@@ -1,0 +1,42 @@
+.CardList {
+  background-color: #e2e4e6;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.CardList:last-child {
+  margin-right: 0;
+}
+
+.CardList .CardList-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  max-width: 200px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.CardList .CardList-title .CardList-title-inline {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.Cardlist-removeCard{
+  color: black;
+}
+.CardList .CardList-title input.editing {
+  font-size: inherit;
+}
+
+.CardList .CardList-title input.editing:focus {
+  outline: none;
+}
+
+.CardList .Cardlist-addCard {
+  color: #4d4d4d;
+  margin-top: 10px;
+  display: inline-block;
+}

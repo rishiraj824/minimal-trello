@@ -1,0 +1,39 @@
+.Board-header {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  padding: 10px;
+  background-color: #026aa7;
+  position: relative;
+  color: #fff;
+}
+
+.Board-header h3 {
+  text-align: center;
+}
+
+.Board-header .button-new-list {
+  position: absolute;
+  background-color: #80b4d3;
+  top: 4px;
+  left: 4px;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  transition: background-color 0.25s;
+}
+
+.Board-header .button-new-list:hover {
+  background-color: #a6cae0;
+}
+
+.Board-header .icon-plus {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  margin-top: -2px;
+  font-weight: bold;
+}

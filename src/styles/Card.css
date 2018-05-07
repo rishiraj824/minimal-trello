@@ -1,0 +1,16 @@
+.Card {
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Card:hover {
+  background-color: #efefef;
+}
+
+.Card .Card-title {
+  max-width: 200px;
+  line-height: 1.2;
+}
